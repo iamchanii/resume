@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../../constraint';
 
 const SkillItemContainer = styled.div`
     flex: 0 0 150px;
@@ -7,6 +8,11 @@ const SkillItemContainer = styled.div`
     
     &:not(:last-child) {
         margin-right: 24px;
+    }
+
+    ${MOBILE_BREAKPOINT} {
+        flex: 0 0 100%;
+        margin-right: 0 !important;
     }
 
     span {
@@ -21,8 +27,7 @@ const SkillItemContainer = styled.div`
     }
 `;
 
-const SkillItemImageContainer = styled.div`
-    width: 150px;
+const SkillItemImageContainer = styled.div`   
     height: 150px;
     border-radius: 2px;
     border: solid 1px #eaeaea;

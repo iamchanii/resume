@@ -1,11 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../../constraint';
 
 const ExperienceItemContainer = styled.div`
     display: flex;
     border: solid 1px #eaeaea;
     background-color: #ffffff;
     padding: 32px;
+    
+    ${MOBILE_BREAKPOINT} {
+        flex-direction: column;
+    }
     
     &:not(:last-child) {
         margin: 0 0 32px 0;
@@ -18,11 +23,19 @@ const CompanyLogo = styled.img`
     border-radius: 50px;
     border: solid 1px #eaeaea;
     background-color: #ffffff;
+    
+    ${MOBILE_BREAKPOINT} {
+        margin: 0 0 32px;
+    }
 `;
 
 const ExperienceItemInformationContainer = styled.div`
     flex: 1;
     margin: 0 0 0 32px;
+    
+    ${MOBILE_BREAKPOINT} {
+        margin: 0;
+    }
     
     h3 {
         font-family: 'Noto Sans KR', sans-serif;
@@ -44,6 +57,7 @@ const ExperienceItemInformationContainer = styled.div`
         letter-spacing: -0.5px;
         color: rgba(36, 36, 36, 0.5);
         margin: 0;
+        white-space: nowrap;
     }
     
     h5 {
@@ -101,6 +115,11 @@ const ExperienceItemWorks = styled.ul`
         letter-spacing: -0.8px;
         color: #242424;
         
+        ${MOBILE_BREAKPOINT} {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        
         &:not(:last-child) {
             margin: 0 0 8px 0;
         }
@@ -115,6 +134,10 @@ const ExperienceItemWorks = styled.ul`
             left: 0;
             top: 10px;
             background-color: #000;
+            
+            ${MOBILE_BREAKPOINT} {
+                top: 8px;
+            }
         }
     }
 `;
