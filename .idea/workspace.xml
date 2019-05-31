@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759d549c-c3b3-4f7a-a715-4663d38f1de5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/favicons/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/footer-icon-figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/footer-icon-github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-golang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-jest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-node-js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-react-testing-library.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-rxjs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/icon-typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/logo-plustv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/logo-tablemanager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/logo-towncompany.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InnerContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contents/ExperienceList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contents/SkillItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contents/SkillList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/logo/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Experiences.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3da80e9e-f5ec-4f35-a4df-e3d031f20f0e" name="responsive" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contents/SkillItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contents/SkillItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contents/SkillList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contents/SkillList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Contents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contents.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Profile.tsx" afterDir="false" />
     </list>
+    <list id="759d549c-c3b3-4f7a-a715-4663d38f1de5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -67,30 +22,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/static/favicons/site.webmanifest">
+        <entry file="file://$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="239">
+              <caret line="131" column="24" selection-start-line="117" selection-start-column="28" selection-end-line="137" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/containers/Footer.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/InnerContainer.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Contents.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,13 +80,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/components/Main.tsx" />
         <option value="$PROJECT_DIR$/src/styles/minireset.min.css" />
-        <option value="$PROJECT_DIR$/src/components/logo/Logo.tsx" />
         <option value="$PROJECT_DIR$/src/components/main/Main.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
@@ -121,21 +98,26 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/contents/Profile.tsx" />
         <option value="$PROJECT_DIR$/src/components/contents/Skills.tsx" />
-        <option value="$PROJECT_DIR$/src/components/contents/SkillItem.tsx" />
-        <option value="$PROJECT_DIR$/src/components/contents/SkillList.tsx" />
         <option value="$PROJECT_DIR$/src/components/contents/Contents.tsx" />
         <option value="$PROJECT_DIR$/src/components/contents/Experiences.tsx" />
         <option value="$PROJECT_DIR$/src/containers/Experiences.tsx" />
         <option value="$PROJECT_DIR$/src/styles.less" />
-        <option value="$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/Profile.tsx" />
         <option value="$PROJECT_DIR$/src/components/contents/ExperienceList.tsx" />
-        <option value="$PROJECT_DIR$/src/components/InnerContainer.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/Contents.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/Footer.tsx" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/setupTests.ts" />
+        <option value="$PROJECT_DIR$/src/tests/ExperienceItem.test.tsx" />
+        <option value="$PROJECT_DIR$/src/tests/SkillItem.test.tsx" />
+        <option value="$PROJECT_DIR$/src/constraint.ts" />
+        <option value="$PROJECT_DIR$/src/components/logo/Logo.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/Profile.tsx" />
+        <option value="$PROJECT_DIR$/src/components/contents/SkillItem.tsx" />
+        <option value="$PROJECT_DIR$/src/components/contents/SkillList.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/Contents.tsx" />
+        <option value="$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx" />
+        <option value="$PROJECT_DIR$/src/components/InnerContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/Footer.tsx" />
       </list>
     </option>
   </component>
@@ -168,17 +150,6 @@
             <path>
               <item name="resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="resume" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,6 +157,13 @@
               <item name="resume" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="resume" type="b2602c69:ProjectViewProjectNode" />
@@ -207,10 +185,12 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -236,7 +216,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.SkillItem">
+    <configuration name="ExperienceItem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/ExperienceItem.test.tsx" />
+      <test-names>
+        <test-name value="ExperienceItem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExperienceItem.정상적으로 렌더링이 된다." type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/ExperienceItem.test.tsx" />
+      <test-names>
+        <test-name value="ExperienceItem" />
+        <test-name value="정상적으로 렌더링이 된다." />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkillItem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/SkillItem.test.tsx" />
+      <test-names>
+        <test-name value="SkillItem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -250,31 +270,97 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.SkillItem" />
+        <item itemvalue="Jest.ExperienceItem.정상적으로 렌더링이 된다." />
+        <item itemvalue="Jest.ExperienceItem" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
+      <branch name="develop" repository="$PROJECT_DIR$" />
       <changelist id="759d549c-c3b3-4f7a-a715-4663d38f1de5" name="Default Changelist" comment="" />
       <created>1558946494439</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558946494439</updated>
+      <updated>1559313384795</updated>
       <workItem from="1558946495888" duration="3103000" />
       <workItem from="1559205321606" duration="2854000" />
       <workItem from="1559264763920" duration="323000" />
-      <workItem from="1559287768263" duration="7762000" />
+      <workItem from="1559287768263" duration="9200000" />
     </task>
+    <task id="LOCAL-00001" summary="test: 간단한 컴포넌트 테스트 추가">
+      <created>1559312678829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559312678829</updated>
+    </task>
+    <task active="true" id="LOCAL-00002" summary="responsive">
+      <branch name="develop" repository="$PROJECT_DIR$" original="true" />
+      <branch name="feature/responsive" repository="$PROJECT_DIR$" />
+      <changelist id="3da80e9e-f5ec-4f35-a4df-e3d031f20f0e" name="responsive" comment="" />
+      <created>1559313379585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559313384797</updated>
+      <workItem from="1559313385995" duration="1215000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ExperienceItem - 2019.05.31 at 23h 15m 33s.xml">
+      <configuration name="ExperienceItem" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ExperienceItem_정상적으로_렌더링이_된다_ - 2019.05.31 at 23h 20m 35s.xml">
+      <configuration name="ExperienceItem.정상적으로 렌더링이 된다." configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ExperienceItem_정상적으로_렌더링이_된다_ - 2019.05.31 at 23h 21m 18s.xml">
+      <configuration name="ExperienceItem.정상적으로 렌더링이 된다." configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="SkillItem - 2019.05.31 at 23h 24m 03s.xml">
+      <configuration name="SkillItem" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="SkillItem - 2019.05.31 at 23h 54m 22s.xml">
+      <configuration name="SkillItem" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14042000" />
+    <option name="totallyTimeSpent" value="16695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29234478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4626556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="JIRA" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31327802" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29234478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -295,10 +381,23 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test: 간단한 컴포넌트 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: 간단한 컴포넌트 테스트 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="dart-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/lottie-web/build/player/lottie.js">
@@ -317,16 +416,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data.json" />
     <entry file="file://$PROJECT_DIR$/src/styles/minireset.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/logo/Logo.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -348,40 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contents/SkillItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Skills.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contents/SkillList.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -402,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Experiences.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -422,57 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contents/ExperienceList.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="100" lean-forward="true" selection-start-line="19" selection-start-column="100" selection-end-line="19" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InnerContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Profile.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Main.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Footer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Contents.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -496,10 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/favicons/site.webmanifest">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -510,10 +512,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/static/favicons/site.webmanifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/jest/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="259" column="28" lean-forward="true" selection-start-line="259" selection-start-column="28" selection-end-line="259" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-testing-library/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contents/ExperienceList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SkillItem.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ExperienceItem.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Profile.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/logo/Logo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constraint.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contents/SkillList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contents/SkillItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Contents.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contents/ExperienceItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="131" column="24" selection-start-line="117" selection-start-column="28" selection-end-line="137" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InnerContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
