@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../constraint';
 import Experiences from './Experiences';
 import Footer from './Footer';
 import Profile from './Profile';
@@ -13,6 +14,10 @@ const ContentsContainer = styled.div`
     margin-top: 100vh;
     position: relative;
     padding: 128px;
+    
+    ${MOBILE_BREAKPOINT} {
+        padding: 48px;
+    }
 `;
 
 /**
