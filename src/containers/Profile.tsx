@@ -1,8 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../constraint';
 
 const ProfileContainer = styled.div`
     display: flex;
+    
+    ${MOBILE_BREAKPOINT} {
+        flex-direction: column;
+    }
     
     img {
         flex: 0 0 120px;
@@ -10,6 +15,10 @@ const ProfileContainer = styled.div`
         height: 120px;
         border-radius: 120px;
         margin: 0 24px 0 0;
+        
+        ${MOBILE_BREAKPOINT} {
+            margin: 0 auto 24px;
+        }
     }
 `;
 

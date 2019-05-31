@@ -5,7 +5,11 @@ import SKillItem from './SkillItem';
 const SkillListContainer = styled.div`
     p {
         margin: 0 0 24px 0;
-    }    
+    }
+    
+    &:last-child {
+        margin-bottom: -24px;
+    }
 `;
 
 const SKillItemListContainer = styled.div`

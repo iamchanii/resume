@@ -1,12 +1,18 @@
 import lottie from 'lottie-web';
 import React from 'react';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../../constraint';
 
 const animationData = require('./data.json');
 
 const LogoContainer = styled.div`
     width: 50vw;
     max-width: 720px;
+    
+    ${MOBILE_BREAKPOINT} {
+        width: 80vw;
+        max-width: 80vw;
+    }
 `;
 
 /**

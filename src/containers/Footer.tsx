@@ -1,12 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import InnerContainer from '../components/InnerContainer';
+import { MOBILE_BREAKPOINT } from '../constraint';
 
 const FooterContainer = styled.footer`
     z-index: 1;
     background-color: #f0f0f0;
     padding: 64px 0;
     position: relative;
+    
+    ${MOBILE_BREAKPOINT} {
+        padding: 64px 48px;
+    }
     
     ${InnerContainer} {
         display: flex;
