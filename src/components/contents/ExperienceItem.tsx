@@ -117,7 +117,7 @@ const ExperienceItemWorks = styled.ul`
         
         ${MOBILE_BREAKPOINT} {
             font-size: 12px;
-            line-height: 18px;
+            line-height: 16px;
         }
         
         &:not(:last-child) {
@@ -136,7 +136,7 @@ const ExperienceItemWorks = styled.ul`
             background-color: #000;
             
             ${MOBILE_BREAKPOINT} {
-                top: 8px;
+                top: 6px;
             }
         }
     }
