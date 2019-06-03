@@ -1,7 +1,7 @@
 import lottie from 'lottie-web';
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../../constraint';
+import { MOBILE_BREAKPOINT } from '../../constants';
 
 const animationData = require('./data.json');
 

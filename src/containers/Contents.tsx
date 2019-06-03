@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../constraint';
+import { MOBILE_BREAKPOINT } from '../constants';
 import Experiences from './Experiences';
 import Footer from './Footer';
 import Profile from './Profile';

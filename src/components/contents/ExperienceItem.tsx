@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../../constraint';
+import { MOBILE_BREAKPOINT } from '../../constants';
 
 const ExperienceItemContainer = styled.div`
     display: flex;

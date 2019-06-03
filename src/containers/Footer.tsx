@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import InnerContainer from '../components/InnerContainer';
-import { MOBILE_BREAKPOINT } from '../constraint';
+import { MOBILE_BREAKPOINT } from '../constants';
 
 const FooterContainer = styled.footer`
     z-index: 1;
