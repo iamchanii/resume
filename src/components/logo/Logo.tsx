@@ -23,15 +23,17 @@ const Logo: React.FC = React.memo(() => {
 
     // div 가 그려진 뒤를 보장하기 위해 useLayoutEffect 사용
     React.useLayoutEffect(() => {
-        if (containerRef.current) {
-            lottie.loadAnimation({
-                container: containerRef.current,
-                renderer: 'svg',
-                loop: false,
-                autoplay: true,
-                animationData,
-            });
-        }
+        setTimeout(() => {
+            if (containerRef.current) {
+                lottie.loadAnimation({
+                    container: containerRef.current,
+                    renderer: 'svg',
+                    loop: false,
+                    autoplay: true,
+                    animationData,
+                });
+            }
+        }, 250);
     }, []);
 
     return (
