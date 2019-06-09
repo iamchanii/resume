@@ -108,7 +108,7 @@ const ExperienceItemWorks = styled.ul`
         padding: 0 0 0 12px;
         font-family: 'Noto Sans KR', sans-serif;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.6;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
@@ -116,8 +116,7 @@ const ExperienceItemWorks = styled.ul`
         color: #242424;
         
         ${MOBILE_BREAKPOINT} {
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 14px;
         }
         
         &:not(:last-child) {
@@ -132,11 +131,11 @@ const ExperienceItemWorks = styled.ul`
             height: 4px;
             border-radius: 100%;
             left: 0;
-            top: 10px;
+            top: 11px;
             background-color: #000;
             
             ${MOBILE_BREAKPOINT} {
-                top: 6px;
+                top: 10px;
             }
         }
     }
