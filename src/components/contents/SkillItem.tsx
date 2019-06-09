@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../../constants';
+import { MOBILE_BREAKPOINT, TABLET_BREAKPOINT } from '../../constants';
+
+const MOBILE_SKILL_ITEM_SPACE = '12px';
 
 const SkillItemContainer = styled.div`
     flex: 0 0 150px;
@@ -10,6 +12,19 @@ const SkillItemContainer = styled.div`
         margin-right: 24px;
     }
 
+    ${TABLET_BREAKPOINT} {
+        flex: 0 0 calc(50% - (${MOBILE_SKILL_ITEM_SPACE} * 2));
+        
+        &:nth-child(odd) {
+            margin-right: ${MOBILE_SKILL_ITEM_SPACE};
+        }
+        
+        &:nth-child(even) {
+            margin-left: ${MOBILE_SKILL_ITEM_SPACE};
+            margin-right: 0;
+        }
+    }
+    
     ${MOBILE_BREAKPOINT} {
         flex: 0 0 100%;
         margin-right: 0 !important;
