@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../../constants';
+import { TABLET_BREAKPOINT } from '../../constants';
 
 const ExperienceItemContainer = styled.div`
     display: flex;
@@ -8,7 +8,7 @@ const ExperienceItemContainer = styled.div`
     background-color: #ffffff;
     padding: 32px;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         flex-direction: column;
     }
     
@@ -24,7 +24,7 @@ const CompanyLogo = styled.img`
     border: solid 1px #eaeaea;
     background-color: #ffffff;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         margin: 0 0 32px;
     }
 `;
@@ -33,7 +33,7 @@ const ExperienceItemInformationContainer = styled.div`
     flex: 1;
     margin: 0 0 0 32px;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         margin: 0;
     }
     
@@ -115,7 +115,7 @@ const ExperienceItemWorks = styled.ul`
         letter-spacing: -0.8px;
         color: #242424;
         
-        ${MOBILE_BREAKPOINT} {
+        ${TABLET_BREAKPOINT} {
             font-size: 14px;
         }
         
@@ -134,7 +134,7 @@ const ExperienceItemWorks = styled.ul`
             top: 11px;
             background-color: #000;
             
-            ${MOBILE_BREAKPOINT} {
+            ${TABLET_BREAKPOINT} {
                 top: 10px;
             }
         }

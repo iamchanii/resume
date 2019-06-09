@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import InnerContainer from '../components/InnerContainer';
-import { MOBILE_BREAKPOINT } from '../constants';
+import { TABLET_BREAKPOINT } from '../constants';
 
 const FooterContainer = styled.footer`
     z-index: 1;
@@ -9,7 +9,7 @@ const FooterContainer = styled.footer`
     padding: 64px 0;
     position: relative;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         padding: 64px 48px;
     }
     

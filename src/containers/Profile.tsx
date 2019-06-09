@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../constants';
+import { TABLET_BREAKPOINT } from '../constants';
 
 const ProfileContainer = styled.div`
     display: flex;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         flex-direction: column;
     }
     
@@ -16,7 +16,7 @@ const ProfileContainer = styled.div`
         border-radius: 120px;
         margin: 0 24px 0 0;
         
-        ${MOBILE_BREAKPOINT} {
+        ${TABLET_BREAKPOINT} {
             margin: 0 auto 24px;
         }
     }

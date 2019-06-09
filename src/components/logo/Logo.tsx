@@ -1,7 +1,7 @@
 import lottie from 'lottie-web';
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../../constants';
+import { TABLET_BREAKPOINT } from '../../constants';
 
 const animationData = require('./data.json');
 
@@ -9,7 +9,7 @@ const LogoContainer = styled.div`
     width: 50vw;
     max-width: 720px;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         width: 80vw;
         max-width: 80vw;
     }

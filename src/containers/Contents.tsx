@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MOBILE_BREAKPOINT } from '../constants';
+import InnerContainer from '../components/InnerContainer';
+import { TABLET_BREAKPOINT } from '../constants';
 import Experiences from './Experiences';
 import Footer from './Footer';
 import Profile from './Profile';
 import Skills from './Skills';
-import InnerContainer from '../components/InnerContainer';
 
 const ContentsContainer = styled.div`
     z-index: 1;
@@ -15,7 +15,7 @@ const ContentsContainer = styled.div`
     position: relative;
     padding: 128px;
     
-    ${MOBILE_BREAKPOINT} {
+    ${TABLET_BREAKPOINT} {
         padding: 48px;
     }
 `;
