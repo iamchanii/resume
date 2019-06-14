@@ -10,6 +10,7 @@
     "@types/react-dom": "16.8.4",
     "@types/styled-components": "^4.1.15",
     "craco-less": "^1.9.0",
+    "linaria": "1.4.0-alpha.1",
     "lottie-web": "^5.5.3",
     "normalize.css": "^8.0.1",
     "react": "^16.8.6",

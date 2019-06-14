@@ -1,5 +1,5 @@
+import { styled } from 'linaria/lib/react';
 import React from 'react';
-import styled from 'styled-components';
 import Logo from '../components/logo/Logo';
 
 const MainContainer = styled.div`

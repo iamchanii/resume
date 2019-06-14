@@ -29,7 +29,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.3.3", "@babel/core@^7.4.3":
+"@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.4.3":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.4.5.tgz#081f97e8ffca65a9b4b0fdc7e274e703f000c06a"
   integrity sha512-OvjIh6aqXtlsA8ujtGKfC7LYWksYSX8yQcM8Ay3LuvVeQ63lcOKgoZWVqcpFwkd29aYU9rVx7jxhfhiEDV9MZA==
@@ -49,7 +49,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.3.3", "@babel/generator@^7.4.0", "@babel/generator@^7.4.4":
+"@babel/generator@^7.4.0", "@babel/generator@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.4.4.tgz#174a215eb843fc392c7edcaabeaa873de6e8f041"
   integrity sha512-53UOLK6TVNqKxf7RUh8NE851EHRxOOeVXKbK2bivdb+iziMyk03Sr4eaE9OELCbyZAAafAKPDwF2TPUES5QbxQ==
@@ -860,7 +860,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.3.2"
 
-"@babel/register@^7.0.0":
+"@babel/register@^7.4.0":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.4.4.tgz#370a68ba36f08f015a8b35d4864176c6b65d7a23"
   integrity sha512-sn51H88GRa00+ZoMqCVgOphmswG4b7mhf9VOB0LUBAieykq2GnRFerlN+JQkO/ntT7wz4jaHNSRPg9IdMPEUkA==
@@ -2867,6 +2867,11 @@ core-js@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.0.1.tgz#1343182634298f7f38622f95e73f54e48ddf4738"
   integrity sha512-sco40rF+2KlE0ROMvydjkrVMMG1vYilP2ALoRXcYR4obqbYIuV3Bg+51GEDW+HF8n7NRA+iaA4qD0nD9lo9mew==
+
+core-js@^2.0.0:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
+  integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
 
 core-js@^2.4.0:
   version "2.6.8"
@@ -6060,18 +6065,20 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-linaria@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/linaria/-/linaria-1.3.1.tgz#f02f86b55e61865bb53773f0481a1bdfc456a209"
-  integrity sha512-bqY26gfXDd/OdjH+jNC/UeM6q3whQdW9OaeHaSuZgXKiT4IZ9JYrMs53UnCroxDwnhDZTnMZLapNrdv4PqCnxA==
+linaria@1.4.0-alpha.1:
+  version "1.4.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/linaria/-/linaria-1.4.0-alpha.1.tgz#0fc7e1b26c4c9ad7be53c2dce426fd695eac2b66"
+  integrity sha512-oBsyRiojLxTBzQTvl0mMCOBfc/8k01IBWl91tAql0oEgNNjaCj9qXG4cxieud3fc/26PrwqEM6/isY8IWg7iiw==
   dependencies:
-    "@babel/core" "^7.3.3"
-    "@babel/generator" "^7.3.3"
+    "@babel/core" "^7.4.3"
+    "@babel/generator" "^7.4.0"
     "@babel/plugin-proposal-export-namespace-from" "^7.2.0"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     "@babel/plugin-transform-modules-commonjs" "^7.2.0"
-    "@babel/register" "^7.0.0"
+    "@babel/register" "^7.4.0"
+    "@babel/traverse" "^7.4.3"
     "@emotion/is-prop-valid" "^0.7.3"
+    core-js "^2.0.0"
     cosmiconfig "^5.1.0"
     dedent "^0.7.0"
     enhanced-resolve "^4.1.0"
@@ -6083,7 +6090,7 @@ linaria@^1.3.1:
     react-is "^16.8.3"
     rollup-pluginutils "^2.4.1"
     source-map "^0.7.3"
-    strip-ansi "^5.0.0"
+    strip-ansi "^5.2.0"
     stylis "^3.5.4"
     yargs "^13.2.1"
 

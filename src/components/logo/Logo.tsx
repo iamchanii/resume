@@ -1,6 +1,6 @@
+import { styled } from 'linaria/lib/react';
 import lottie from 'lottie-web';
 import React from 'react';
-import styled from 'styled-components';
 import { TABLET_BREAKPOINT } from '../../constants';
 
 const animationData = require('./data.json');

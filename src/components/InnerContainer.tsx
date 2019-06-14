@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import { styled } from 'linaria/lib/react';
 
 export default styled.div`
     width: 100%;
@@ -8,4 +8,4 @@ export default styled.div`
     .container {
         margin: 0 0 64px 0;
     }
-`;
+` as any;
