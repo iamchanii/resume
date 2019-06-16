@@ -62,14 +62,34 @@ const ExperienceItemInformationContainer = styled.div`
     
     h5 {
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
         line-height: 1.6;
         letter-spacing: -0.8px;
         color: #242424;
-        margin: 0 0 32px 0;
+        margin: 24px 0 24px 0;
+        
+        ${TABLET_BREAKPOINT} {
+            && {
+                font-size: 14px;
+            }
+        }
+    }
+    
+    h6 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: -0.8px;
+        color: #242424;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #eaeaea;
+        margin: 0;
     }
 `;
 
@@ -100,7 +120,7 @@ const ExperienceItemSkills = styled.ul`
 
 const ExperienceItemWorks = styled.ul`
     margin: 0;
-    padding: 0;
+    padding: 16px 16px 0;
     list-style: none;
     
     li {
@@ -172,6 +192,7 @@ const ExperienceItem: React.FC<P> = ({ data }) => {
                 </ExperienceItemSkills>
                 <Divider/>
                 <h5>{data.description}</h5>
+                <h6>주요 업무 내용</h6>
                 <ExperienceItemWorks>
                     {data.works.map(work => <li key={work} children={work}/>)}
                 </ExperienceItemWorks>
