@@ -8,8 +8,8 @@ const experiences: ExperienceData[] = [
         metadata: '2018. 12 ~ NOW / 프론트엔드 개발',
         skills: ['React', 'Typescript', 'Redux', 'Redux-Saga', 'Styled-Component', 'Less', 'Unit Test (Jest)', 'WebStorm', 'Confluence', 'Jira', 'Slack', 'Kanban'],
         description: '자사 디지털 사이니지 관리 솔루션의 신규 CMS 프로젝트 개발 및 유지보수를 담당하였습니다. ' +
-            '리액트와 타입스크립트를 사용하여 프로젝트를 처음부터 개발하였습니다. ' +
-            'Jest 를 사용하여 단위 테스트 주도 개발을 진행했으며, 최근 프로젝트 폴더 구조를 개선하였습니다.',
+            '리액트와 타입스크립트를 사용하여 개발하였고, 테스트 주도 개발을 진행하였습니다.' +
+            '최근 프로젝트 폴더 구조 개선 작업을 진행했습니다.',
         works: [
             '자사 디지털 사이니지 솔루션의 신규 CMS 프로젝트 개발',
             '프로젝트 폴더 구조 개선',
